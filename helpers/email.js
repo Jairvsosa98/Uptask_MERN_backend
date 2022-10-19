@@ -23,7 +23,7 @@ export const emailRegistro = async (datos) => {
         html: `<p>Hola: ${nombre} Comprueba tu cuenta en UpTask</p>
             <p>Tu cuenta ya está casi lista, solo debes comprobarla en el siguiente enlace:</p>
             <a href="${process.env.FRONTEND_URL}/confirmar/${token}">Comprobar Cuenta</a>
-            <p>Si tu no creaste esta cuenta, puedes ignorar el mensaje</p>
+            <p>Si tu no creaste esta cuenta, puedes ignorar el mensaje.</p>
         `
     })
 }
